@@ -1,0 +1,12 @@
+.hero {
+  height: 82vh;
+  background-color: $thibetan-gray;
+  &__image {
+    max-width: 40%;
+    max-height: 40%;
+  }
+  &__description {
+    max-width: 900px;
+    text-shadow: 5px 5px 4px $carbon-black;
+  }
+}

@@ -1,0 +1,27 @@
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+@import 'vendors/bootstrap-4.4.1/bootstrap';
+
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/animations';
+
+@import 'layout/main';
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'components/buttons';
+@import 'components/navigation';
+@import 'components/thumbnails';
+@import 'components/form';
+@import 'components/pagination';
+@import 'components/cards';
+
+@import 'pages/stores';
+@import 'pages/contact';
+@import 'pages/blogarticle';
+
+
+//@import 'themes/theme';

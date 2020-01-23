@@ -1,0 +1,14 @@
+.footer {
+  font-family: $lato;
+  font-weight: $wlight;
+  font-size: $small;
+  line-height: 0.9rem;
+  background-color: $persimmon;
+  color: $white;
+  a {
+    color: $white;
+    &:hover {
+      color: $dark-cyan-c;
+    }
+  }
+}
