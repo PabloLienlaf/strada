@@ -1,0 +1,43 @@
+.overlay-news{
+  &:hover {
+      background-color: rgba(231, 173, 17, 0.80);
+      transition: 0.5s;
+  }
+}
+
+.overlay-stores{
+  &:hover {
+      background-color: rgba(205, 90, 24, 0.80);
+      transition: 0.5s;
+  }
+}
+
+// .card-title {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%,-50%);
+//   background-color: rgba(41, 159, 149, 0.80);
+// }
+
+.card-title-news {
+  background-color: rgba(41, 159, 149, 0.8);
+  font-size: $medium;
+  font-weight: $bold;
+}
+.info {
+  position: absolute;
+  bottom: 0;
+  padding: 20px 10px;
+  a {
+    font-weight: $bold;
+    color: #FFF;
+  }
+}
+
+.Store__card {
+  max-width: 255px;
+  max-height: 255px;
+  min-height: 150px;
+  min-height: 150px;
+}
