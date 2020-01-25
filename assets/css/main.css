@@ -9921,10 +9921,6 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 2px solid #393939;
   box-shadow: 1px 2px 5px #A7A7A7;
 }
-.hero__image {
-  max-width: 40%;
-  max-height: 40%;
-}
 .hero__description {
   max-width: 900px;
   text-shadow: 5px 5px 4px #171717;
@@ -9994,10 +9990,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .Store__card {
-  max-width: 255px;
-  max-height: 255px;
-  min-height: 150px;
-  min-height: 150px;
+  max-width: 500px;
+  max-height: 500px;
+  min-height: 100px;
+  min-height: 100px;
+}
+
+.SectionStores hr {
+  border: 1px solid #e79165;
+  margin: 1.5rem 0;
+}
+
+.SectionNews hr {
+  border: 1px solid #e79165;
+  margin: 1.5rem 0;
+}
+.SectionNews__social i {
+  color: #299F95;
+}
+.SectionNews__social i:hover {
+  color: #59afa6;
+}
+
+.SectionAbout hr {
+  border: 1px solid #e79165;
+  margin: 1.5rem 0;
+}
+.SectionAbout h1, .SectionAbout h2, .SectionAbout h3, .SectionAbout h4, .SectionAbout h5, .SectionAbout h6 {
+  color: #db7640;
 }
 
 /*# sourceMappingURL=main.css.map */

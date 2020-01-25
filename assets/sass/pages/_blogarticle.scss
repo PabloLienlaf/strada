@@ -1,0 +1,15 @@
+.SectionNews {
+  hr {
+    border: 1px solid $persimmon-c;
+    margin: 1.5rem 0;
+  }
+
+  &__social {
+    i {
+      color: $dark-cyan;
+      &:hover {
+        color: $dark-cyan-b;
+      }
+    }
+  }
+}
