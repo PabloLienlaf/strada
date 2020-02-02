@@ -9880,7 +9880,7 @@ h3 {
 }
 
 .bg-persimmon {
-  background-color: #CD5A18;
+  background-color: #EA5A05;
 }
 
 .bg-goldenrod {
@@ -9911,6 +9911,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
   font-family: "Muli", sans-serif;
+}
+
+a {
+  color: #299F95;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #7dbfb7;
 }
 
 .hero {
@@ -9944,7 +9953,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   font-size: 0.833rem;
   line-height: 0.9rem;
-  background-color: #CD5A18;
+  background-color: #EA5A05;
   color: #FFFFFF;
 }
 .footer a {
@@ -9952,6 +9961,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 .footer a:hover {
   color: #7dbfb7;
+}
+
+.btn-goldenrod {
+  background-color: #E7AD11;
+  color: #171717;
+}
+.btn-goldenrod:hover {
+  background-color: #efba48;
+}
+.btn-goldenrod:focus {
+  background-color: #f6c76f;
+  box-shadow: 0 0 0 0.2rem rgba(246, 199, 111, 0.25);
 }
 
 .navbar-brand {
@@ -10010,6 +10031,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 .SectionNews__social i:hover {
   color: #59afa6;
+}
+
+.NewsArticle hr {
+  border: 1px solid #e79165;
+  margin: 1.5rem 0;
+}
+.NewsArticle__info {
+  color: #393939;
+  font-size: 0.833rem;
+  font-weight: 300;
+}
+.NewsArticle__content {
+  list-style-position: inside;
+  line-height: 1.7;
+}
+.NewsArticle__content p {
+  margin-bottom: 1.5rem;
 }
 
 .SectionAbout hr {

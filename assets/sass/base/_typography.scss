@@ -1,5 +1,13 @@
 h1, h2, h3, h4, h5, h6 {
   font-weight: $bold;
   font-family: $muli;
+}
 
+a {
+  color: $dark-cyan;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color: $dark-cyan-c;
+  }
 }

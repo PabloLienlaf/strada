@@ -13,3 +13,24 @@
     }
   }
 }
+
+.NewsArticle {
+  hr {
+    border: 1px solid $persimmon-c;
+    margin: 1.5rem 0;
+  }
+
+  &__info {
+    color: $thibetan-gray;
+    font-size: $small;
+    font-weight: $wlight;
+
+  }
+  &__content {
+    p {
+      margin-bottom: 1.5rem;
+    }
+    list-style-position: inside;
+    line-height: 1.7;
+  }
+}
