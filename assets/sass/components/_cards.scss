@@ -40,4 +40,13 @@
   max-height: 500px;
   min-height: 100px;
   min-height: 100px;
+  &-text {
+    color: rgba(255, 255, 255, 0.0);
+    &:hover {
+      color: $white;
+    }
+    h5 {
+
+    }
+  }
 }

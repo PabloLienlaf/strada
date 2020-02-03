@@ -9876,15 +9876,15 @@ h3 {
   }
 }
 .bg-darkcyan {
-  background-color: #299F95;
+  background-color: #00A096;
 }
 
 .bg-persimmon {
-  background-color: #EA5A05;
+  background-color: #CD5A18;
 }
 
 .bg-goldenrod {
-  background-color: #E7AD11;
+  background-color: #FAAF00;
 }
 
 .bg-saddlebrown {
@@ -9892,7 +9892,7 @@ h3 {
 }
 
 .bg-palegoldenrod {
-  background-color: #F7E8A9;
+  background-color: #FDE9A7;
 }
 
 * {
@@ -9914,12 +9914,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #299F95;
+  color: #00A096;
   text-decoration: none;
 }
 a:hover {
   text-decoration: none;
-  color: #7dbfb7;
+  color: #77c0b8;
 }
 
 .hero {
@@ -9953,25 +9953,29 @@ a:hover {
   font-weight: 300;
   font-size: 0.833rem;
   line-height: 0.9rem;
-  background-color: #EA5A05;
+  background-color: #CD5A18;
   color: #FFFFFF;
 }
 .footer a {
   color: #FFFFFF;
 }
 .footer a:hover {
-  color: #7dbfb7;
+  color: #77c0b8;
+}
+
+.StradaInfo__data p {
+  margin-bottom: 0.3rem;
 }
 
 .btn-goldenrod {
-  background-color: #E7AD11;
+  background-color: #FAAF00;
   color: #171717;
 }
 .btn-goldenrod:hover {
-  background-color: #efba48;
+  background-color: #ffbc45;
 }
 .btn-goldenrod:focus {
-  background-color: #f6c76f;
+  background-color: #ffc96d;
   box-shadow: 0 0 0 0.2rem rgba(246, 199, 111, 0.25);
 }
 
@@ -9981,7 +9985,16 @@ a:hover {
 }
 
 .navbar {
-  border-bottom: 2px solid #299F95;
+  border-bottom: 2px solid #00A096;
+}
+
+.page-item.active .page-link {
+  background-color: #4eb0a7;
+  border-color: #00A096;
+}
+
+.page-link {
+  color: #00A096;
 }
 
 .overlay-news:hover {
@@ -10016,10 +10029,74 @@ a:hover {
   min-height: 100px;
   min-height: 100px;
 }
-
+.Store__card-text {
+  color: rgba(255, 255, 255, 0);
+}
+.Store__card-text:hover {
+  color: #FFFFFF;
+}
 .SectionStores hr {
   border: 1px solid #e79165;
   margin: 1.5rem 0;
+}
+.SectionStores__data p {
+  margin-bottom: 0.3rem;
+}
+.SectionStores__profileimage {
+  border-radius: 100%;
+  border: 2px solid #ffc96d;
+  padding: 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 10px;
+  margin-left: 40px;
+  box-shadow: 5px 5px 10px rgba(40, 40, 40, 0.9);
+}
+.SectionStores__profileimage:hover {
+  border: 2px solid #FDE9A7;
+  box-shadow: 5px 5px 10px rgba(23, 23, 23, 0.9);
+}
+.SectionStores__social i {
+  color: #00A096;
+}
+.SectionStores__social i:hover {
+  color: #4eb0a7;
+}
+.SectionStores__info {
+  color: #393939;
+  font-size: 0.833rem;
+  font-weight: 300;
+}
+.SectionStores__content {
+  list-style-position: inside;
+  line-height: 1.7;
+}
+.SectionStores__content p {
+  margin-bottom: 1.5rem;
+}
+
+.SectionContact hr {
+  border: 1px solid #e79165;
+  margin: 1.5rem 0;
+}
+.SectionContact h1, .SectionContact h2, .SectionContact h3, .SectionContact h4, .SectionContact h5, .SectionContact h6 {
+  color: #db7640;
+}
+.SectionContact p {
+  margin-bottom: 0.5rem;
+}
+.SectionContact__container {
+  max-width: 900px;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.SectionContact input:focus, .SectionContact textarea:focus, .SectionContact select:focus {
+  border-color: #ffc96d;
+  box-shadow: 0 0 0 0.2rem rgba(246, 199, 111, 0.25);
 }
 
 .SectionNews hr {
@@ -10027,10 +10104,10 @@ a:hover {
   margin: 1.5rem 0;
 }
 .SectionNews__social i {
-  color: #299F95;
+  color: #00A096;
 }
 .SectionNews__social i:hover {
-  color: #59afa6;
+  color: #4eb0a7;
 }
 
 .NewsArticle hr {

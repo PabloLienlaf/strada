@@ -3,5 +3,47 @@
     border: 1px solid $persimmon-c;
     margin: 1.5rem 0;
   }
+  &__data {
+    p {
+      margin-bottom: 0.3rem;
+    }
+  }
 
+  &__profileimage {
+    border-radius: 100%;
+    border: 2px solid $goldenrod-c;
+    padding: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 40px;
+    box-shadow: 5px 5px 10px rgba(40, 40, 40, 0.90);
+    &:hover {
+      border: 2px solid $pale-goldenrod;
+      box-shadow: 5px 5px 10px rgba(23, 23, 23, 0.90);
+    }
+  }
+  &__social {
+    i {
+      color: $dark-cyan;
+      &:hover {
+        color: $dark-cyan-b;
+      }
+    }
+  }
+
+  &__info {
+    color: $thibetan-gray;
+    font-size: $small;
+    font-weight: $wlight;
+
+  }
+  &__content {
+    p {
+      margin-bottom: 1.5rem;
+    }
+    list-style-position: inside;
+    line-height: 1.7;
+  }
 }
