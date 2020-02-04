@@ -8,20 +8,44 @@
 
   &__description {
     max-width: 900px;
-    text-shadow: 5px 5px 4px $carbon-black;
+    text-shadow: 5px 5px 4px rgba(23, 23, 23, 0.50);
     position: absolute;
     bottom: 0;
     span {
-      background-color: rgba(23, 23, 23, 0.90);
-      font-size: $x-large;
+      //23,23,23
+      background-color: rgba(205, 90, 24, 0.90);
       font-family: $muli;
       font-weight: $bold;
       padding: 0.25rem;
+      &:hover {
+        background-color: rgba(0, 160, 150, 0.90);
+        cursor: default;
+        transition: 0.7s;
+      }
     }
   }
   &__color {
-    background: linear-gradient(rgba(90,90,90,.015),rgba(0,0,0,.5));
+    background: linear-gradient(rgba(180,180,180,.4),rgba(220,220,220,.6));
     height: 100%;
   }
 
+}
+
+@media (min-width: 992px) {
+  span {
+    font-size: $x-large;
+    padding: 0.25rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 991.98px) {
+  span {
+    font-size: $large;
+    padding: 0.25rem;
+  }
+}
+@media (max-width: 575.98px) {
+  span {
+    font-size: $medium;
+    padding: 0.25rem;
+  }
 }
